@@ -1,5 +1,9 @@
-base-files (6.4ubuntu5deepin1) oneiric; urgency=low
+base-files (6.5~deepin1) oneiric; urgency=low
 
+  [Santiago Vila <sanvila@debian.org>]
+  * Modified default /etc/profile to not read /etc/bash.bashrc if bash
+    is invoked as /bin/sh. Closes: #632887.
+  ［YunQiang Su］
   * fix for LinuxDeepin 11.12. 
 
  -- YunQiang Su <wzssyqa@gmail.com>  Thu, 08 Dec 2011 15:31:46 +0800
